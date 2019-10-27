@@ -83,9 +83,9 @@ h2 {
 
 .page-body {
   width: 96%;
-  height: 1000px;
   margin-left: 2%;
   margin-right: 2%;
+  padding-bottom: 80px;
 }
 
 .checklist {
@@ -118,4 +118,31 @@ h2 {
   font-size: 1.8em;
   font-weight: normal;
   margin: 0;
+}
+
+.badge {
+  width: 47%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: inline-block;
+}
+
+.badge h3 {
+  font-size: 0.7em;
+}
+
+.badge-img {
+  width: 100%;
+  margin: 0;
+}
+
+.badge p {
+  font-family: 'Raleway', sans-serif;
+  font-size: .4em;
+}
+
+a {
+  color: #5C821A;
 }
