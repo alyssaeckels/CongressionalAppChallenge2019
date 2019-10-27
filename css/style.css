@@ -1,0 +1,121 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f9d7;
+}
+
+.top {
+  background-color: #0F1B07;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);
+}
+
+.logo {
+  height: 45px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.levels {
+
+}
+
+#level {
+  margin: 0;
+  margin-bottom: 3px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#points {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+#bar {
+  width: 1%;
+  background-color: #B0E553;
+  height: 8px;
+}
+
+nav {
+  background-color: #0F1B07;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.45);
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+nav div {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-family: 'Limelight', cursive;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #B0E553;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(176, 229, 83, 0.15);
+  border-radius: 5px;
+  width: 80px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Limelight', cursive;
+  color: #0F1B07;
+  font-size: 1.8em;
+  margin-bottom: 12px;
+  margin-top: 18px;
+}
+
+.page-body {
+  width: 96%;
+  height: 1000px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.checklist {
+  background-color: white;
+  min-height: 36px;
+  padding-left: 12px;
+  padding-top: 0px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 8px;
+}
+
+.box {
+  float: left;
+  opacity: 0.5;
+  background-color: #5C821A;
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+  margin-top: 18px;
+  margin-left: 0;
+  border-radius: 3px;
+}
+
+.checklist p {
+  padding-top: 15px;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 1.8em;
+  font-weight: normal;
+  margin: 0;
+}
